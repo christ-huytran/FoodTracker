@@ -42,6 +42,7 @@
                                     <outlet property="nameLabel" destination="G2y-p6-gEl" id="jsT-bl-eIc"/>
                                     <outlet property="photoImageView" destination="Fm3-0n-ysv" id="U82-oo-CuX"/>
                                     <outlet property="ratingControl" destination="Lzc-TR-e1F" id="qLT-eY-OCx"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="d9q-EF-dkB"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -111,7 +112,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="RZ5-lW-5Io">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="3KK-Md-Xh5"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="3KK-Md-Xh5">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="oKo-Hj-TSQ"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="0LR-G7-1Eq">
                             <connections>
                                 <segue destination="Kdr-XE-h2h" kind="unwind" unwindAction="unwindToMealList:" id="rdJ-iD-uCx"/>
@@ -169,10 +174,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRx-SV-BaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1192" y="311"/>
+            <point key="canvasLocation" x="1234" y="687"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="d9q-EF-dkB"/>
+    </inferredMetricsTieBreakers>
 </document>
