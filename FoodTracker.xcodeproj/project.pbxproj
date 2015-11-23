@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E2DCD6D1C02F5E80071A772 /* FoodTracker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E2DCD6C1C02F5E80071A772 /* FoodTracker.gif */; };
+		3E2DCD6F1C02F79B0071A772 /* FoodTracker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E2DCD6E1C02F79B0071A772 /* FoodTracker.gif */; };
 		3ECFCC371BFA647400F0EFCD /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFCC361BFA647400F0EFCD /* RatingControl.swift */; };
 		3ECFCC391BFA8C4000F0EFCD /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFCC381BFA8C4000F0EFCD /* Meal.swift */; };
 		3ECFCC3A1BFA8C4000F0EFCD /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFCC381BFA8C4000F0EFCD /* Meal.swift */; };
@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E2DCD6C1C02F5E80071A772 /* FoodTracker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = FoodTracker.gif; path = ../../../../../../Downloads/FoodTracker.gif; sourceTree = "<group>"; };
+		3E2DCD6E1C02F79B0071A772 /* FoodTracker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FoodTracker.gif; sourceTree = "<group>"; };
 		3ECFCC361BFA647400F0EFCD /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		3ECFCC381BFA8C4000F0EFCD /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		3ECFCC3B1BFA99FA00F0EFCD /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				3ECFCC3D1BFAC17700F0EFCD /* MealTableViewController.swift */,
 				3ECFCC3B1BFA99FA00F0EFCD /* MealTableViewCell.swift */,
 				3ECFCC361BFA647400F0EFCD /* RatingControl.swift */,
-				3E2DCD6C1C02F5E80071A772 /* FoodTracker.gif */,
+				3E2DCD6E1C02F79B0071A772 /* FoodTracker.gif */,
 				3EDFAF651BF9130D009B57D0 /* Assets.xcassets */,
 				3EDFAF671BF9130D009B57D0 /* LaunchScreen.storyboard */,
 				3EDFAF6A1BF9130D009B57D0 /* Info.plist */,
@@ -196,7 +196,7 @@
 				3EDFAF691BF9130D009B57D0 /* LaunchScreen.storyboard in Resources */,
 				3EDFAF661BF9130D009B57D0 /* Assets.xcassets in Resources */,
 				3EDFAF641BF9130D009B57D0 /* Main.storyboard in Resources */,
-				3E2DCD6D1C02F5E80071A772 /* FoodTracker.gif in Resources */,
+				3E2DCD6F1C02F79B0071A772 /* FoodTracker.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
